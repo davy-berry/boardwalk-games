@@ -24,6 +24,14 @@ h1, h2, h3 {
     color: var(--highlight-color);
 }
 
+/* NAVBAR */
+#navbar {
+    background-color: var(--primary-color);
+    & .logo{
+        width: 30px;
+    }
+}
+
 /* Grid visualisation*/
 /*.container, 
 .row {
