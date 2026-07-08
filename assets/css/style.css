@@ -5,9 +5,9 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #416a8e; /*blue*/
-    --secondary-color: #aa9581; /*brown*/
-    --highlight-color: #416a8e; 
+    --primary-color: #3a2620; /*dark brown*/
+    --secondary-color: #aa9581; /*light brown*/
+    --highlight-color: #416a8e; /*Blue*/
     --highlight-color-light: #7a9fc2; /*light blue*/
 }
 
@@ -22,4 +22,15 @@ h1, h2, h3 {
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+/* Grid visualisation*/
+.container, 
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid black;
+    background-color: lightgrey;
 }
