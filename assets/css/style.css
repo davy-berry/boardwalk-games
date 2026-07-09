@@ -11,6 +11,7 @@
     --highlight-color-light: #7a9fc2; /*light blue*/
 }
 
+/* Global Styles */
 body {
     font-family: var(--primary-font);
 }
@@ -18,10 +19,16 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* NAVBAR */
@@ -30,6 +37,11 @@ h1, h2, h3 {
     & .logo{
         width: 30px;
     }
+}
+
+/* Header */
+#header .lead {
+    font-family: var(--secondary-font);
 }
 
 /* Grid visualisation*/
