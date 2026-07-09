@@ -63,6 +63,13 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Cards Games Section */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 /* Grid visualisation*/
 /*.container, 
 .row {
