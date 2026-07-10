@@ -153,11 +153,28 @@ h2 {
 }*/
 
 /* Media Queries */ 
+@media screen and (min-width: 320px) {
+    /*Make all card in services section the same height in larger screen*/
+    #carouselExampleAutoplaying {
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    /*Make all card in services section the same height in larger screen*/
+    #carouselExampleAutoplaying {
+        margin-top: 0.5rem;
+    }
+}
 /*Media querie for mid size screen and up: from 768px */
 @media screen and (min-width: 768px) {
     /*Make all card in services section the same height in larger screen*/
     #services .card-body {
         min-height: 191px;
+    }
+
+    #carouselExampleAutoplaying {
+        margin-top: 0.5rem;
     }
 }
 
