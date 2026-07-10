@@ -95,6 +95,16 @@ h2 {
     border: none;
 }
 
+/* Join Section */
+.banner {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+    border-radius: 0%;
+    font-size: medium;
+
+}
+
 /* Footer / Contact */
 
 #contact {
